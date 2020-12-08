@@ -19,6 +19,7 @@ const store = createStore(
   composeWithDevTools(applyMiddleware(...middleweres))
 )
 
+
 ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
